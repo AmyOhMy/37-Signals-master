@@ -1,0 +1,335 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of reset*/
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family:"Crimson Semibold";
+	src:url("Crimson-Semibold.eot?") format("eot"),url("Crimson-Semibold.woff") format("woff"),url("Crimson-Semibold.ttf") format("truetype"),url("Crimson-Semibold.svg#Crimson-Semibold") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+#nav {
+	height: 46px;
+	width: 100%;
+}
+
+#happy-day {
+	float: left;
+	margin: 30px 58px;
+	font-family: Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;
+	font-size: 12px;
+	display: block;
+	color: #999;
+}
+
+#nav-list {
+	float: right;
+	margin: 26px 48px;
+	display: block;
+	list-style-type: none;
+	font-size: 12px;
+	font-family: Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;
+	color: #5263A1;
+}
+
+#nav-list li {
+	padding: 10px;
+	display:inline;
+	vertical-align: middle;
+}
+
+#sign-in {
+	color: #25B0E9;
+}
+
+#main-container {
+	width: 70%;
+	height: 520px;
+	margin: 30px auto 30px;
+}
+
+
+#logo {
+	width: 164px;
+	height: 39px;
+	background: url('images/37-signals-logo.png');
+	background-repeat: no-repeat;
+	display: block;
+	margin: 15px auto;
+}
+
+#main-container {
+	width: 850px;
+	height: auto;
+}
+
+#main-container h1 {
+	font-size: 58px;
+	font-family: Crimson-Semibold, Times New Roman, Georgia, serif;
+	font-weight: bolder;
+	line-height: 1.0em;
+	text-align: center;
+	letter-spacing: -2px;
+	margin-bottom: 23px;
+	line-height: 1.0em;
+}
+
+#main-container h3 {
+	font-size: 20px;
+	font-family: Crimson-Semibold, Times New Roman, Georgia, serif;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 1.3em;
+
+}
+/*Start of Alt Hover JS*/
+
+#alt-Basecamp {
+	display: none;
+	width: auto;
+	height: 165px;
+}
+
+#alt-Basecamp h1 {
+	font-size: 45px;
+	letter-spacing: -1px;
+}
+
+#alt-Basecamp h1 span {
+	text-decoration: underline;
+	color: #369;
+}
+
+#alt-Basecamp h3 {
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 800px;
+	font-weight: normal;
+}
+
+#alt-Highrise {
+	display: none;
+	width: auto;
+	height: 165px;
+}
+
+#alt-Highrise h1 {
+	font-size: 45px;
+	letter-spacing: -1px;
+}
+
+#alt-Highrise h1 span {
+	text-decoration: underline;
+	color: #369;
+}
+
+#alt-Highrise h3 {
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 800px;
+	font-weight: normal;
+}
+
+#alt-Campfire {
+	display: none;
+	width: auto;
+	height: 165px;
+}
+
+#alt-Campfire h1 {
+	font-size: 45px;
+	letter-spacing: -1px;
+}
+
+#alt-Campfire h1 span {
+	text-decoration: underline;
+	color: #369;
+}
+
+#alt-Campfire h3 {
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 800px;
+	font-weight: normal;
+}
+
+
+
+.arrow-block {
+	width: 680px;
+	height: 70px;
+	margin: -10px auto 0 auto;
+}
+
+.arrow {
+	position: relative;
+	margin: 0;
+	height: 69px;
+	width: 69px;
+	z-index: 100;
+	display: inline-block;
+}
+
+#left-one {
+	float: left;
+	margin-left: 168px;
+}
+
+#left-two {
+	margin-left: 400px;
+}
+
+#right {
+    float: right;
+	margin-right: 150px;
+}
+
+/*End of Alt Hover JS*/
+
+#image-container {
+	width: 670px;
+	height: 322px;
+	display: block;
+	margin: 20px auto;
+}
+
+#tile-1 {
+	width: 179px;
+	height: 247px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	float: left;
+	margin: -50px 21px;
+	background: url('images/Basecamp.png') no-repeat;
+	background-position: 50% 20px;
+} 
+
+#tile-2 {
+	width: 179px;
+	height: 247px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	float: left;
+	margin: -50px 21px;
+	background: url('images/Highrise.png') no-repeat;
+	background-position: 50% 20px;
+}
+
+#tile-3 {
+	width: 179px;
+	height: 247px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	float: right;
+	margin: -50px 21px;
+	background: url('images/Campfire.png') no-repeat;
+	background-position: 50% 20px;
+}
+
+.Title {
+	font-family: Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;
+	color: #369;
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 120px;
+	
+}
+
+.Tagline {
+	font-family: sans-serif;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.Description {
+	font-family: sans-serif;
+	color: black;
+	font-size: 15px;
+	text-align: center;
+	margin: 18px 5px 0 5px;
+	
+}
+
+#footer-paragraph {
+	width: 800px;
+	height: auto;
+	margin: 30px auto;
+}
+
+#footer-paragraph h2 {
+	font-size: 44px;
+	font-family: Crimson-Semibold, Times New Roman, Georgia, serif;
+	font-weight: bolder;
+	line-height: 1.0em;
+	text-align: center;
+	line-height: 1.2em;
+	
+}
+
+#footer-paragraph p {
+	font-family: Times New Roman, Georgia, serif;
+	font-size: 19px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+
+
